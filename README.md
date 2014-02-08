@@ -4,8 +4,8 @@
  
  Building a voting system allowing users to
 
--Creat a resource called "topic"
--vote on topics
--view the topics sorted by number of votes
--create, edit, and destroy topics "CRUD"
+Creat a resource called "topic"
+Vote on topics
+View the topics sorted by number of votes
+Create, edit, and destroy topics "CRUD"
 
