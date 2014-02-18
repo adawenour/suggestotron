@@ -6,10 +6,15 @@ def upvote
   @topic.votes.create
   redirect_to(topics_path)
   end
+  def downvote
+  @topic = Topic.find(params[:id])
+  @topic.votes.create
+  redirect_to(topics_path)
+end
   # GET /topics
   # GET /topics.json
   def index
-    @topics = Topic.all
+    @topics = Topic.all.order("created_at DESC")
   end
 
   # GET /topics/1

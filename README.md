@@ -2,7 +2,7 @@
 
  Suggestotron
  
- Building a voting system allowing users to
+ Building a voting system to
 
 -Creat a resource called "topic"
 -Vote on topics
